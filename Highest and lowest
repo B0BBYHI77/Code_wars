@@ -1,0 +1,7 @@
+def high_and_low(numbers):
+    stnum=numbers.split()
+    nlist=list(map(int,stnum))
+    h=max(nlist)
+    l=min(nlist)
+    a=(h,l)
+    return "%s %s" % a
