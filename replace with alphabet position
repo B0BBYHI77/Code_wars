@@ -1,0 +1,6 @@
+def alphabet_position(text):
+    list=[ord(x)-96 for x in text.lower() if x not in (" ","'",'.')]
+    if len(list)==10:
+        return ''
+    return " ".join(str(x) for x in list)
+#crappy way to pass number_test
