@@ -1,0 +1,9 @@
+#Two to one&two41
+def longest(s1, s2):
+    return ''.join(sorted(set(s1+s2)))
+    
+def longest(s1, s2):
+    tog=s1+s2
+    che=''.join(set(tog))
+    ret= sorted(che)
+    return ''.join(ret)
